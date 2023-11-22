@@ -1,67 +1,56 @@
-<!-- <div class="container" style="background-color: aquamarine;">
-  <div class="row">
-    <div class="col">Column</div>
+<section>
+  <div class="col" style="background-color: rgb(136, 217, 151);">
 
-    <div class="w-100"></div>
-
-    <div class="col">Column</div>
-  </div>
-</div> -->
-
-<div class="col" style="background-color: rgb(136, 217, 151);">
-
-  <div class="row">
-    <div class="col">
-      <img src="/assets/sombra.png" style="height: 400px; width: 400px; justify-content: center;" alt="Sombra rick and morty">
-    </div>
-  </div>
-
-
-  <main>
-    <section class="chars">
-      <!-- <img src="./assets/logo.svg" alt=""> -->
-
-      <div class="filters">
-        <input type="text" id="name" placeholder="Filter by name..." class="filter">
-        <select name="species" id="species" class="filter" placeholder="Species">
-          <option value="" default style="color: #757575;">
-            Species
-          </option>
-          <option value="animal"> Animal </option>
-          <option value="alien"> Alien </option>
-          <option value="disease"> Doença </option>
-          <option value="unknown"> Desconhecido </option>
-          <option value="human"> Humano </option>
-          <option value="humanoid"> Humanoide </option>
-          <option value="mythological"> Mitologico </option>
-          <option value="poopybutthole"> Poopybutthole </option>
-          <option value="robot"> Robo </option>
-        </select>
-
-        <select name="gender" id="gender" class="filter">
-          <option value="">
-            Genero
-          </option>
-          <option value="female"> Feminino </option>
-          <option value="male"> Masculino </option>
-          <option value="genderless"> Sem Genero </option>
-          <option value="unknown"> Desconhecido </option>
-        </select>
-
-        <select name="status" id="status" class="filter">
-          <option value="">
-            Status
-          </option>
-          <option value="alive"> Vivo </option>
-          <option value="dead"> Morto </option>
-          <option value="unknown"> Desconhecido </option>
-        </select>
+    <div class="row">
+      <div class="col">
+        <img src="/assets/sombra.png" style="height: 400px; width: 400px; justify-content: center;" alt="Sombra rick and morty">
       </div>
+    </div>
 
-      <div class="chars-container"></div>
+    <main>
+      <section class="chars">
+        <div class="filters">
+          <input type="text" id="name" placeholder="Filter by name..." class="filter">
+          <select name="species" id="species" class="filter" placeholder="Species">
+            <option value="" default style="color: #757575;">
+              Species
+            </option>
+            <option value="animal"> Animal </option>
+            <option value="alien"> Alien </option>
+            <option value="disease"> Doença </option>
+            <option value="unknown"> Desconhecido </option>
+            <option value="human"> Humano </option>
+            <option value="humanoid"> Humanoide </option>
+            <option value="mythological"> Mitologico </option>
+            <option value="poopybutthole"> Poopybutthole </option>
+            <option value="robot"> Robo </option>
+          </select>
 
-      <button id="load-more"> Carregar mais </button>
-    </section>
-  </main>
-</div>
+          <select name="gender" id="gender" class="filter">
+            <option value="">
+              Genero
+            </option>
+            <option value="female"> Feminino </option>
+            <option value="male"> Masculino </option>
+            <option value="genderless"> Sem Genero </option>
+            <option value="unknown"> Desconhecido </option>
+          </select>
+
+          <select name="status" id="status" class="filter">
+            <option value="">
+              Status
+            </option>
+            <option value="alive"> Vivo </option>
+            <option value="dead"> Morto </option>
+            <option value="unknown"> Desconhecido </option>
+          </select>
+        </div>
+
+        <div class="chars-container"></div>
+
+        <button id="load-more"> Carregar mais </button>
+      </section>
+    </main>
+  </div>
+</section>
 

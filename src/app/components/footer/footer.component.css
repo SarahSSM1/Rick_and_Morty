@@ -1,0 +1,35 @@
+footer{
+  background-color: #1A1D24;
+  color: #7A7A77;
+  padding-block: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1A1D24;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+ }
+
+ p{
+  font-size: 15px;
+ }
+
+ span{
+  color: #fff;
+ }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-block-end: 10px;
+}
+
+.social-link {
+  font-size: 1.3rem;
+  color: #7A7A77
+}
+
+.social-link:is(:hover, :focus-visible) { color: #FF9800; }
